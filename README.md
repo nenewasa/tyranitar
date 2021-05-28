@@ -1,4 +1,0 @@
-## Tyranitar
-
-
-#### go project
