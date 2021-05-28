@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./libtryanitar"
+	"github.com/nenewasa/tyranitar/libtryanitar"
 )
 
 func main() {
