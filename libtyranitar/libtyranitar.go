@@ -1,10 +1,22 @@
 package libtyranitar
 
 import (
-	"fmt"
+	"strings"
+
+	"github.com/abiosoft/ishell"
+	"github.com/fatih/color"
 )
 
-func Sendit(x string) {
-	fmt.Printf("%s", x)
-	return
+func Execshell() {
+	color.Blue("Test shell")
+	shell := ishell.New()
+	shell.SetPrompt(">>")
+	shell.AddCmd(&ishell.Cmd{
+		Name: "test",
+		Help: "test command",
+		Func: func(c *ishell.Context) {
+			c.Println("test function", strings.Join(c.Args, " "))
+		},
+	})
+	shell.Run()
 }
