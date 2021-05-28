@@ -5,6 +5,6 @@ import (
 )
 
 func Spitout(x string) {
-	fmt.Print(x)
-	return 
+	fmt.Printf("%s", x)
+	return
 }
