@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/nenewasa/tyranitar/pupitar"
+	"./pupitar"
 )
 
 func main() {

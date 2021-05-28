@@ -1,4 +1,4 @@
-module github.com/nenewasa/tyranitar/pupitar
+module tyranitar/pupitar
 
 go 1.16
 
