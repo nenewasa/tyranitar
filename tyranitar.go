@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/nenewasa/tyranitar/libtryanitar"
-)
+import "github.com/nenewasa/tyranitar/libtyranitar"
 
 func main() {
 	libtyranitar.Spitout("hello")
