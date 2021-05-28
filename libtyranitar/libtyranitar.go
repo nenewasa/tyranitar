@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func Spitout(x string) string {
+func Spitout(x string) {
 	fmt.Print(x)
 	return 
 }
