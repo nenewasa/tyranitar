@@ -1,9 +1,11 @@
 package main
 
-import "github.com/nenewasa/tyranitar/libtyranitar"
+import (
+	"github.com/nenewasa/tyranitar/libtyranitar"
+)
 
 func main() {
 	for {
-		libtyranitar.ExecShell()
+		libtyranitar.Sendit("yo")
 	}
 }
